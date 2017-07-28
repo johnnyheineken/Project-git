@@ -3,7 +3,7 @@
 
 prime.numbers<-c(rep(0,10))
 prime.numbers[1:3]<-c(2,3,5)
-hodne<-2000000
+hodne<-150000
 
 system.time(
 profvis({
